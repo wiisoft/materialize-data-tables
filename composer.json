@@ -1,0 +1,22 @@
+{
+    "name": "wiisoft/yii2-materialize-data-table",
+    "description": "Data Tables widget base on Maza framework for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," materialize","data-tables"," maza"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zimovid",
+            "email": "webdev@webmaker.today"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/datatables": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wii\\dataTable\\": ""
+        }
+    }
+}

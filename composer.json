@@ -12,11 +12,13 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/datatables": "*"
+        "bower-asset/maza": "*",
+        "bower-asset/datatables": "*",
+        "bower-asset/datatables-tabletools":"*"
     },
     "autoload": {
         "psr-4": {
-            "wii\\dataTable\\": ""
+            "wii\\datatables\\": ""
         }
     }
 }
